@@ -4,7 +4,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-container: selenium/standalone-chrome:latest
+container: selenium/base:latest
 
 steps:
 - script: |
